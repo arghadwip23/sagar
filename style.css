@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+
+#pre{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#screenf,
+#screens,
+#screent {
+    height: 100vh;
+    display: none;
+}
+
+#screenf {
+    background: url(bg.svg);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: display 8s;
+}
+
+#screenf img {
+    width: 50%;
+}
+
+#screenf h1 {
+    font-family: Lemonada;
+    font-size: 40px;
+    color: #CA0000;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+small {
+    font-family: 'Itim', cursive;
+    font-size: 20px;
+}
+
+#screens {
+    background: #6F7BFF;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: #42445A00;
+      background-image: url("Bubble-Background.svg");
+    
+}
+
+.ml4 {
+    position: relative;
+    font-weight: 900;
+    font-size: 9em;
+    color : #FFFFFF;
+    text-align: center;
+    border: 2px solid #000000;
+    font-family: "Fascinate Inline" , cursive;
+}
+
+.ml4 .letters {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 30vh;
+    right: 0;
+    opacity: 0;
+}
+#screent{
+    height: 110vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    background-image: url("heart-1s-324px.svg");
+    overflow: hidden;
+}
+#msg{
+    font-family: Playball,cursive;
+    font-size: 3rem;
+    font-weight: bold;
+    color : #BD0505;
+}
+#screent div{
+    
+    text-align: center;
+  
+}
+#heart{
+    width: 50%;
+}
+.ml15 {
+    font-family: "UnifrakturMaguntia";
+    font-size: 5em;
+    font-weight: 900;
+    letter-spacing: 0em;
+    -webkit-text-stroke: 1px #000;
+}
+
+.ml15 .word {
+    display: inline-block;
+    line-height: 0.5em;
+    color: #CC0101;
+}
+h2{
+    font-family: Itim;
+    font-size: 30px;
+}
+#ques{
+    font-family: 'Itim' , cursive;
+}
+#dec{
+    position: fixed;
+    width: 90%;
+    top: 0;
+    transform: translateY(-30%);
+}
+#quote{
+    font-family: Playball,cursive;
+    font-size: 30px;
+    background: linear-gradient(to top , #FF78788F,#FBC9C98F), url("Feedback 3.svg");
+    background-repeat: no-repeat;
+}
